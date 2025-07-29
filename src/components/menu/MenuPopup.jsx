@@ -78,8 +78,10 @@ function MenuPopup({ item, onClose }) {
           fontSize: "1.2rem",
         }}
       >
-        <strong>{itemWithIcons.name}</strong>{" "}
-        {item.price && <span> - ${item.price}</span>}
+        <strong style={{ fontSize: "23px" }}>{itemWithIcons.name}</strong>{" "}
+        {item.price && (
+          <span style={{ fontSize: "23px" }}> - ${item.price}</span>
+        )}
       </div>
 
       <div
@@ -103,14 +105,24 @@ function MenuPopup({ item, onClose }) {
               </span>
             </p>
           )}
-          <strong>Description</strong>
-          <span className="block">{item.description}</span>
+          <strong style={{ fontSize: "23px" }}>Description</strong>
+          <span className="block" style={{ fontSize: "18px" }}>
+            {item.description}
+          </span>
         </div>
 
         {item.type === "Handroll" && (
           <div>
-            <p style={{ fontWeight: "bold", marginBottom: "0px" }}>Add on's</p>
-            <div className="grid grid-cols-2" style={{ gap: "3px" }}>
+            <p
+              style={{
+                fontSize: "23px",
+                fontWeight: "bold",
+                marginBottom: "0px",
+              }}
+            >
+              Add on's
+            </p>
+            <div className="grid grid-cols-2" style={{ gap: "1px" }}>
               {addOns.map((addOn) => {
                 const isRecommended = item.topping?.includes(addOn.name);
                 return (
