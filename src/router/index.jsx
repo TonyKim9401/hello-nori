@@ -4,7 +4,7 @@ import About from "../pages/About.jsx";
 import Dinogame from "../pages/Dinogame.jsx";
 import Menu from "../pages/Menu.jsx";
 
-function App() {
+function HashRouterComponent() {
   return (
     <HashRouter>
       <Routes>
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default HashRouterComponent;
