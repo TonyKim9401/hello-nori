@@ -8,7 +8,7 @@ export default function QRCanvas() {
   useEffect(() => {
     QRCode.toCanvas(
       canvasRef.current,
-      "https://dinojump.online/",
+      "https://tonykim9401.github.io/hello-nori/#/menu",
       { width: 256 },
       (error) => {
         if (error) console.error(error);
