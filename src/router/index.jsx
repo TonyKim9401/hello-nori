@@ -1,26 +1,20 @@
-import { createBrowserRouter } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home.jsx";
 import About from "../pages/About.jsx";
 import Dinogame from "../pages/Dinogame.jsx";
 import Menu from "../pages/Menu.jsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/dinogame",
-    element: <Dinogame />,
-  },
-  {
-    path: "/menu",
-    element: <Menu />,
-  },
-]);
+function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/dinogame" element={<Dinogame />} />
+        <Route path="/menu" element={<Menu />} />
+      </Routes>
+    </HashRouter>
+  );
+}
 
-export default router;
+export default App;
