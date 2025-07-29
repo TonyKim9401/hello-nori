@@ -7,7 +7,7 @@
         "name": "4 Handroll",
         "icons": [],
         "price": 23,
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "A curated selection of 4 premium handrolls.",
         "type": "None",
         "options": [
@@ -22,7 +22,7 @@
         "name": "5 Handroll",
         "icons": [],
         "price": 29,
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Enjoy 5 handrolls with a diverse seafood variety.",
         "type": "None",
         "options": [
@@ -38,7 +38,7 @@
         "name": "6 Handroll",
         "icons": [],
         "price": 35,
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "The ultimate experience with 6 deluxe handrolls.",
         "type": "None",
         "options": [
@@ -59,7 +59,7 @@
         "name": "Ebi Oshi (Shrimp Oshi)",
         "icons": [],
         "price": 9,
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Flame-seared shrimp sushi with a rich house sauce.",
         "topping": [],
         "type": "None"
@@ -68,7 +68,7 @@
         "name": "Salmon Oshi",
         "icons": [],
         "price": 9,
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Seared salmon layered over rice with our signature miso glaze.",
         "topping": [],
         "type": "None"
@@ -82,7 +82,7 @@
         "name": "King Salmon",
         "price": 7.5,
         "icons": ["GF", "O"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Ora King Salmon with avocado and wasabi soy.",
         "topping": ["Avocado"],
         "type": "Handroll"
@@ -91,7 +91,7 @@
         "name": "Yellow Tail",
         "price": 7.5,
         "icons": ["GF"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "It's tail colored in yellow lol",
         "topping": [],
         "type": "Handroll"
@@ -100,7 +100,7 @@
         "name": "Bluefin Tuna",
         "price": 8,
         "icons": ["GF"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "A tuna a bluefin on top lol",
         "topping": [],
         "type": "Handroll"
@@ -109,7 +109,7 @@
         "name": "Negi Toro",
         "icons": [],
         "price": 6,
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Premium fatty tuna handroll with freshly seasoned rice.",
         "topping": [],
         "type": "Handroll"
@@ -118,7 +118,7 @@
         "name": "Unagi",
         "price": 7,
         "icons": [],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Ell imported from China",
         "topping": ["Cucumber"],
         "type": "Handroll"
@@ -127,7 +127,7 @@
         "name": "Snow Crab",
         "price": 8,
         "icons": ["GF"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Sweet snow crab mixed with yuzu mayo and shiso leaf.",
         "topping": [],
         "type": "Handroll"
@@ -136,7 +136,7 @@
         "name": "Truffle Lobster",
         "price": 9.5,
         "icons": ["GF"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Sounds fancy with its price",
         "topping": [],
         "type": "Handroll"
@@ -145,7 +145,7 @@
         "name": "Spicy Shrimp",
         "price": 6,
         "icons": ["O"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Not really spricy tho",
         "topping": [],
         "type": "Handroll"
@@ -154,7 +154,7 @@
         "name": "Hokkaido Scallop",
         "price": 7,
         "icons": ["GF"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Prev frozen scallop with mayo & fishegg",
         "topping": [],
         "type": "Handroll"
@@ -163,7 +163,7 @@
         "name": "Octopus",
         "price": 8.5,
         "icons": [],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Not chewy",
         "topping": [],
         "type": "Handroll"
@@ -172,7 +172,7 @@
         "name": "Seabream",
         "price": 8,
         "icons": ["GF"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "White fish",
         "topping": [],
         "type": "Handroll"
@@ -181,7 +181,7 @@
         "name": "Spicy Bluefin Tuna",
         "price": 8.5,
         "icons": [],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "hmm",
         "topping": [],
         "type": "Handroll"
@@ -190,7 +190,7 @@
         "name": "Tamago",
         "price": 5,
         "icons": [],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Cooked egg",
         "topping": [],
         "type": "Handroll"
@@ -199,7 +199,7 @@
         "name": "Avocado",
         "price": 4,
         "icons": ["GF", "V"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Avo roll",
         "topping": [],
         "type": "Handroll"
@@ -208,7 +208,7 @@
         "name": "Pickled Vegetable",
         "price": 4,
         "icons": ["GF", "V"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Carrot, Cucumber and Daikon",
         "topping": [],
         "type": "Handroll"
@@ -217,7 +217,7 @@
         "name": "Cucumber",
         "price": 4,
         "icons": ["GF", "V"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "More than 90% consist of water",
         "topping": [],
         "type": "Handroll"
@@ -231,7 +231,7 @@
         "name": "Sashimi Platter",
         "price": 48,
         "icons": ["GF"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "total 15 pcs, 5~6 types of sea foods",
         "topping": [],
         "type": "None"
@@ -240,7 +240,7 @@
         "name": "Miso soup",
         "price": 5,
         "icons": [],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Seaweed, Tofu, Green onion",
         "topping": [],
         "type": "None"
@@ -249,7 +249,7 @@
         "name": "Mochi Ice Cream (3pcs)",
         "price": 6,
         "icons": [],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Chocolate, Green tea, Mango, Strawberry, Vanila plz pick your own 3 of them",
         "topping": [],
         "type": "None"
@@ -258,7 +258,7 @@
         "name": "Wagyu Handroll",
         "price": 27,
         "icons": [],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Miyazaki wagyu",
         "topping": [],
         "type": "None"
@@ -267,7 +267,7 @@
         "name": "Uni Handroll",
         "price": 5,
         "icons": ["GF"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Horse shit Uni",
         "topping": [],
         "type": "None"
@@ -276,7 +276,7 @@
         "name": "Ikura Handroll",
         "price": 7.5,
         "icons": ["GF"],
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Salmon roe",
         "topping": [],
         "type": "None"
@@ -290,7 +290,7 @@
         "name": "Sparkling Water",
         "icons": [],
         "price": 4,
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Refreshing carbonated water to cleanse your palate.",
         "topping": [],
         "type": "None"
@@ -299,7 +299,7 @@
         "name": "Coca-Cola (glass bottle)",
         "icons": [],
         "price": 5,
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Classic Coca-Cola served chilled in a glass bottle.",
         "topping": [],
         "type": "None"
@@ -308,7 +308,7 @@
         "name": "White Peach",
         "icons": [],
         "price": 5,
-        "image": "/img/handroll.png",
+        "image": "./img/handroll.png",
         "description": "Delicate and aromatic white peach soda imported from Japan.",
         "topping": [],
         "type": "None"
