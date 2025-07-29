@@ -231,7 +231,7 @@
         "name": "Sashimi Platter",
         "price": 48,
         "icons": ["GF"],
-        "image": "./img/handroll.png",
+        "image": "./img/sashimiPlatter.jpeg",
         "description": "total 15 pcs, 5~6 types of sea foods",
         "topping": [],
         "type": "None"
@@ -265,7 +265,7 @@
       },
       {
         "name": "Uni Handroll",
-        "price": 5,
+        "price": 27,
         "icons": ["GF"],
         "image": "./img/handroll.png",
         "description": "Horse shit Uni",
