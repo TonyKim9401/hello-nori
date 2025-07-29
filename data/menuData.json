@@ -119,7 +119,7 @@
         "price": 7,
         "icons": [],
         "image": "./img/handroll.png",
-        "description": "Ell imported from China",
+        "description": "Ell, taste good tho",
         "topping": ["Cucumber"],
         "type": "Handroll"
       },
@@ -237,24 +237,6 @@
         "type": "None"
       },
       {
-        "name": "Miso soup",
-        "price": 5,
-        "icons": [],
-        "image": "./img/handroll.png",
-        "description": "Seaweed, Tofu, Green onion",
-        "topping": [],
-        "type": "None"
-      },
-      {
-        "name": "Mochi Ice Cream (3pcs)",
-        "price": 6,
-        "icons": [],
-        "image": "./img/handroll.png",
-        "description": "Chocolate, Green tea, Mango, Strawberry, Vanila plz pick your own 3 of them",
-        "topping": [],
-        "type": "None"
-      },
-      {
         "name": "Wagyu Handroll",
         "price": 27,
         "icons": [],
@@ -310,6 +292,52 @@
         "price": 5,
         "image": "./img/handroll.png",
         "description": "Delicate and aromatic white peach soda imported from Japan.",
+        "topping": [],
+        "type": "None"
+      }
+    ]
+  },
+  {
+    "section": "Appetizers",
+    "items": [
+      {
+        "name": "Miso soup",
+        "price": 5,
+        "icons": [],
+        "image": "./img/handroll.png",
+        "description": "Seaweed, Tofu, Green onion",
+        "topping": [],
+        "type": "None"
+      },
+      {
+        "name": "Edamame (Salty & Spicy)",
+        "icons": [],
+        "price": 4,
+        "image": "./img/handroll.png",
+        "description": "Steamed soy bean flavored with salt or spicy sauce with galic chip on the top with extra $1",
+        "topping": [],
+        "type": "None"
+      }
+    ]
+  },
+  {
+    "section": "Desserts",
+    "items": [
+      {
+        "name": "Mochi Ice Cream (3pcs)",
+        "price": 6,
+        "icons": [],
+        "image": "./img/handroll.png",
+        "description": "Chocolate, Green tea, Mango, Strawberry, Vanila plz pick your own 3 of them",
+        "topping": [],
+        "type": "None"
+      },
+      {
+        "name": "Mille Crepe Cake",
+        "icons": [],
+        "price": 8,
+        "image": "./img/handroll.png",
+        "description": "Vanila flavored & matcha power on the top",
         "topping": [],
         "type": "None"
       }
