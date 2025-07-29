@@ -2,7 +2,7 @@
   "name": "hello-nori",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tonykim9401.github.io/hello-nori",
+  "homepage": "https://tonykim9401.github.io/hello-nori/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
