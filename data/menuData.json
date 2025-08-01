@@ -53,13 +53,36 @@
     ]
   },
   {
+    "section": "Appetizers",
+    "items": [
+      {
+        "name": "Miso soup",
+        "price": 5,
+        "icons": [],
+        "image": "./img/handroll.png",
+        "description": "Seaweed, Tofu, Green onion",
+        "topping": [],
+        "type": "None"
+      },
+      {
+        "name": "Edamame (Salty & Spicy)",
+        "icons": [],
+        "price": 4,
+        "image": "./img/handroll.png",
+        "description": "Steamed soy bean flavored with salt or spicy sauce with galic chip on the top with extra $1",
+        "topping": [],
+        "type": "None"
+      }
+    ]
+  },
+  {
     "section": "Aburi Oshi (Torched&pressed)",
     "items": [
       {
         "name": "Ebi Oshi (Shrimp Oshi)",
         "icons": [],
         "price": 9,
-        "image": "./img/handroll.png",
+        "image": "./img/ebiOshi.png",
         "description": "Flame-seared shrimp sushi with a rich house sauce.",
         "topping": [],
         "type": "None"
@@ -68,7 +91,7 @@
         "name": "Salmon Oshi",
         "icons": [],
         "price": 9,
-        "image": "./img/handroll.png",
+        "image": "./img/salmonOshi.png",
         "description": "Seared salmon layered over rice with our signature miso glaze.",
         "topping": [],
         "type": "None"
@@ -230,7 +253,7 @@
       {
         "name": "Sashimi Platter",
         "price": 48,
-        "icons": ["GF"],
+        "icons": [],
         "image": "./img/sashimiPlatter.jpeg",
         "description": "total 15 pcs, 5~6 types of sea foods",
         "topping": [],
@@ -266,68 +289,13 @@
     ]
   },
   {
-    "section": "Drinks",
-    "items": [
-      {
-        "name": "Sparkling Water",
-        "icons": [],
-        "price": 4,
-        "image": "./img/handroll.png",
-        "description": "Refreshing carbonated water to cleanse your palate.",
-        "topping": [],
-        "type": "None"
-      },
-      {
-        "name": "Coca-Cola (glass bottle)",
-        "icons": [],
-        "price": 5,
-        "image": "./img/handroll.png",
-        "description": "Classic Coca-Cola served chilled in a glass bottle.",
-        "topping": [],
-        "type": "None"
-      },
-      {
-        "name": "White Peach",
-        "icons": [],
-        "price": 5,
-        "image": "./img/handroll.png",
-        "description": "Delicate and aromatic white peach soda imported from Japan.",
-        "topping": [],
-        "type": "None"
-      }
-    ]
-  },
-  {
-    "section": "Appetizers",
-    "items": [
-      {
-        "name": "Miso soup",
-        "price": 5,
-        "icons": [],
-        "image": "./img/handroll.png",
-        "description": "Seaweed, Tofu, Green onion",
-        "topping": [],
-        "type": "None"
-      },
-      {
-        "name": "Edamame (Salty & Spicy)",
-        "icons": [],
-        "price": 4,
-        "image": "./img/handroll.png",
-        "description": "Steamed soy bean flavored with salt or spicy sauce with galic chip on the top with extra $1",
-        "topping": [],
-        "type": "None"
-      }
-    ]
-  },
-  {
     "section": "Desserts",
     "items": [
       {
         "name": "Mochi Ice Cream (3pcs)",
         "price": 6,
         "icons": [],
-        "image": "./img/handroll.png",
+        "image": "./img/mochiIcecream.jpg",
         "description": "Chocolate, Green tea, Mango, Strawberry, Vanila plz pick your own 3 of them",
         "topping": [],
         "type": "None"
