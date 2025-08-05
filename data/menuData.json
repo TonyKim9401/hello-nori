@@ -65,12 +65,23 @@
         "type": "None"
       },
       {
-        "name": "Edamame (Salty & Spicy)",
+        "name": "Edamame (Salty)",
         "icons": [],
         "price": 4,
         "image": "./img/handroll.png",
         "description": "Steamed soy bean flavored with salt or spicy sauce with galic chip on the top with extra $1",
         "topping": [],
+        "allergy": [],
+        "type": "None"
+      },
+      {
+        "name": "Edamame (Spicy)",
+        "icons": [],
+        "price": 5,
+        "image": "./img/handroll.png",
+        "description": "Steamed soy bean flavored with salt or spicy sauce with galic chip on the top with extra $1",
+        "topping": [],
+        "allergy": ["Gluten", "Egg", "Sesame Oil"],
         "type": "None"
       }
     ]
@@ -85,6 +96,7 @@
         "image": "./img/ebiOshi.png",
         "description": "Flame-seared shrimp sushi with a rich house sauce.",
         "topping": [],
+        "allergy": ["Gluten", "Egg", "Shellfish"],
         "type": "None"
       },
       {
@@ -94,6 +106,7 @@
         "image": "./img/salmonOshi.png",
         "description": "Seared salmon layered over rice with our signature miso glaze.",
         "topping": [],
+        "allergy": ["Gluten", "Egg", "Raw Fish"],
         "type": "None"
       }
     ]
@@ -108,6 +121,7 @@
         "image": "./img/handroll.png",
         "description": "Ora King Salmon with avocado and wasabi soy.",
         "topping": ["Avocado"],
+        "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
         "type": "Handroll"
       },
       {
@@ -117,6 +131,7 @@
         "image": "./img/handroll.png",
         "description": "It's tail colored in yellow lol",
         "topping": [],
+        "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
         "type": "Handroll"
       },
       {
@@ -126,6 +141,7 @@
         "image": "./img/handroll.png",
         "description": "A tuna a bluefin on top lol",
         "topping": [],
+        "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
         "type": "Handroll"
       },
       {
@@ -135,6 +151,7 @@
         "image": "./img/handroll.png",
         "description": "Premium fatty tuna handroll with freshly seasoned rice.",
         "topping": [],
+        "allergy": ["Raw Fish", "Green Onion"],
         "type": "Handroll"
       },
       {
@@ -144,6 +161,7 @@
         "image": "./img/handroll.png",
         "description": "Ell, taste good tho",
         "topping": ["Cucumber"],
+        "allergy": ["Gluten"],
         "type": "Handroll"
       },
       {
@@ -153,6 +171,7 @@
         "image": "./img/handroll.png",
         "description": "Sweet snow crab mixed with yuzu mayo and shiso leaf.",
         "topping": [],
+        "allergy": ["Egg", "Sehllfish"],
         "type": "Handroll"
       },
       {
@@ -162,6 +181,7 @@
         "image": "./img/handroll.png",
         "description": "Sounds fancy with its price",
         "topping": [],
+        "allergy": ["Egg", "Shellfish"],
         "type": "Handroll"
       },
       {
@@ -171,6 +191,7 @@
         "image": "./img/handroll.png",
         "description": "Not really spricy tho",
         "topping": [],
+        "allergy": ["Gluten", "Egg", "Shellfish", "Sesame Oil"],
         "type": "Handroll"
       },
       {
@@ -180,6 +201,7 @@
         "image": "./img/handroll.png",
         "description": "Prev frozen scallop with mayo & fishegg",
         "topping": [],
+        "allergy": ["Egg", "Shellfish", "Fish Roe", "Raw Fish"],
         "type": "Handroll"
       },
       {
@@ -189,6 +211,7 @@
         "image": "./img/handroll.png",
         "description": "Not chewy",
         "topping": [],
+        "allergy": ["Gluten", "Shellfish", "Sesame Oil"],
         "type": "Handroll"
       },
       {
@@ -198,6 +221,7 @@
         "image": "./img/handroll.png",
         "description": "White fish",
         "topping": [],
+        "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
         "type": "Handroll"
       },
       {
@@ -207,6 +231,7 @@
         "image": "./img/handroll.png",
         "description": "hmm",
         "topping": [],
+        "allergy": ["Gluten", "Egg", "Sesame Oil", "Raw Fish"],
         "type": "Handroll"
       },
       {
@@ -216,6 +241,7 @@
         "image": "./img/handroll.png",
         "description": "Cooked egg",
         "topping": [],
+        "allergy": ["Gluten", "Egg", "Dairy"],
         "type": "Handroll"
       },
       {
@@ -225,6 +251,7 @@
         "image": "./img/handroll.png",
         "description": "Avo roll",
         "topping": [],
+        "allergy": [],
         "type": "Handroll"
       },
       {
@@ -234,6 +261,7 @@
         "image": "./img/handroll.png",
         "description": "Carrot, Cucumber and Daikon",
         "topping": [],
+        "allergy": [],
         "type": "Handroll"
       },
       {
@@ -243,6 +271,7 @@
         "image": "./img/handroll.png",
         "description": "More than 90% consist of water",
         "topping": [],
+        "allergy": [],
         "type": "Handroll"
       }
     ]
