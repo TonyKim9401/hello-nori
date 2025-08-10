@@ -62,7 +62,8 @@
         "image": "./img/handroll.png",
         "description": "Comforting traditional broth with tofu & seaweed",
         "topping": [],
-        "type": "None"
+        "type": "None",
+        "inStock": true
       },
       {
         "name": "Edamame (Salty)",
@@ -72,7 +73,8 @@
         "description": "Perfectly steamed soybeans with sea salt",
         "topping": [],
         "allergy": [],
-        "type": "None"
+        "type": "None",
+        "inStock": true
       },
       {
         "name": "Edamame (Spicy)",
@@ -82,7 +84,8 @@
         "description": "Steamed soybeans with spicy garlic kick",
         "topping": [],
         "allergy": ["Gluten", "Egg", "Sesame Oil"],
-        "type": "None"
+        "type": "None",
+        "inStock": true
       }
     ]
   },
@@ -97,7 +100,8 @@
         "description": "Flame-seared shrimp with signature house sauce",
         "topping": [],
         "allergy": ["Gluten", "Egg", "Shellfish"],
-        "type": "None"
+        "type": "None",
+        "inStock": true
       },
       {
         "name": "Salmon Oshi",
@@ -107,7 +111,8 @@
         "description": "Buttery seared salmon with miso glaze perfection",
         "topping": [],
         "allergy": ["Gluten", "Egg", "Raw Fish"],
-        "type": "None"
+        "type": "None",
+        "inStock": false
       }
     ]
   },
@@ -122,7 +127,8 @@
         "description": "Premium Ora King salmon with creamy avocado",
         "topping": ["Avocado"],
         "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Yellow Tail",
@@ -132,7 +138,8 @@
         "description": "Buttery yellowtail with crispy nori wrapper",
         "topping": [],
         "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Bluefin Tuna",
@@ -142,7 +149,8 @@
         "description": "Melt-in-your-mouth bluefin tuna perfection",
         "topping": [],
         "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": false
       },
       {
         "name": "Negi Toro",
@@ -152,7 +160,8 @@
         "description": "Rich fatty tuna with green onion freshness",
         "topping": [],
         "allergy": ["Raw Fish", "Green Onion"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Unagi",
@@ -162,7 +171,8 @@
         "description": "Sweet glazed eel with refreshing cucumber",
         "topping": ["Cucumber"],
         "allergy": ["Gluten"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Snow Crab",
@@ -172,7 +182,8 @@
         "description": "Sweet crab meat with yuzu mayo & shiso leaf",
         "topping": [],
         "allergy": ["Egg", "Shellfish"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Truffle Lobster",
@@ -182,7 +193,8 @@
         "description": "Decadent lobster with truffle luxury touch",
         "topping": [],
         "allergy": ["Egg", "Shellfish"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": false
       },
       {
         "name": "Spicy Shrimp",
@@ -192,7 +204,8 @@
         "description": "Tender shrimp with house-made spicy sauce",
         "topping": [],
         "allergy": ["Gluten", "Egg", "Shellfish", "Sesame Oil"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Hokkaido Scallop",
@@ -202,7 +215,8 @@
         "description": "Sweet scallop with tobiko & creamy mayo",
         "topping": [],
         "allergy": ["Egg", "Shellfish", "Fish Roe", "Raw Fish"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Octopus",
@@ -212,7 +226,8 @@
         "description": "Tender octopus with sesame oil glaze",
         "topping": [],
         "allergy": ["Gluten", "Shellfish", "Sesame Oil"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": false
       },
       {
         "name": "Seabream",
@@ -222,7 +237,8 @@
         "description": "Delicate white fish with subtle sweetness",
         "topping": [],
         "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Spicy Bluefin Tuna",
@@ -232,7 +248,8 @@
         "description": "Premium tuna with signature spicy kick",
         "topping": [],
         "allergy": ["Gluten", "Egg", "Sesame Oil", "Raw Fish"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": false
       },
       {
         "name": "Tamago (Egg)",
@@ -242,7 +259,8 @@
         "description": "Sweet Japanese omelet, comfort in every bite",
         "topping": [],
         "allergy": ["Gluten", "Egg", "Dairy"],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Avocado",
@@ -252,7 +270,8 @@
         "description": "Creamy avocado roll for plant-based lovers",
         "topping": [],
         "allergy": [],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Pickled Vegetable",
@@ -262,7 +281,8 @@
         "description": "Refreshing mix of carrot, cucumber & daikon",
         "topping": [],
         "allergy": [],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       },
       {
         "name": "Cucumber",
@@ -272,7 +292,8 @@
         "description": "Light & crisp with refreshing crunch",
         "topping": [],
         "allergy": [],
-        "type": "Handroll"
+        "type": "Handroll",
+        "inStock": true
       }
     ]
   },
@@ -295,7 +316,9 @@
           { "name": "Scallop" }
         ],
         "type": "None",
-        "allergy": []
+        "allergy": [],
+        "inStock": true,
+        "isSpecial": false
       },
       {
         "name": "Wagyu Handroll",
@@ -305,7 +328,9 @@
         "description": "Luxurious Miyazaki wagyu in crispy nori",
         "topping": [],
         "type": "None",
-        "allergy": []
+        "allergy": [],
+        "inStock": false,
+        "isSpecial": false
       },
       {
         "name": "Uni Handroll",
@@ -315,7 +340,9 @@
         "description": "Creamy sea urchin for the adventurous palate",
         "topping": [],
         "type": "None",
-        "allergy": []
+        "allergy": [],
+        "inStock": true,
+        "isSpecial": true
       },
       {
         "name": "Ikura Handroll",
@@ -325,7 +352,9 @@
         "description": "Bursting salmon roe with ocean freshness",
         "topping": [],
         "type": "None",
-        "allergy": []
+        "allergy": [],
+        "inStock": true,
+        "isSpecial": false
       }
     ]
   },
@@ -346,7 +375,8 @@
           { "name": "Vanilla" },
           { "name": "Strawberry" }
         ],
-        "type": "None"
+        "type": "None",
+        "inStock": true
       },
       {
         "name": "Mille Crepe Cake",
@@ -355,7 +385,8 @@
         "image": "./img/handroll.png",
         "description": "Vanilla layers with matcha powder finish",
         "topping": [],
-        "type": "None"
+        "type": "None",
+        "inStock": true
       }
     ]
   }
