@@ -1,46 +1,67 @@
 [
   {
     "section": "Set Menus",
+    "sectionId": 1,
     "items": [
       {
-        "id": "fourSet",
+        "id": 1,
+        "itemId": "fourSet",
         "name": "4 Handroll",
         "icons": [],
         "price": 23,
         "image": "./img/handroll.png",
         "description": "Perfect starter set with crispy nori & warm rice",
         "type": "None",
+        "isRecommended": false,
+        "isBestSeller": true,
+        "isSpecial": false,
         "options": [
           { "name": "Negi Toro" },
           { "name": "King Salmon" },
           { "name": "Snow Crab" },
           { "name": "Spicy Shrimp" }
+        ],
+        "recommendedWith": [
+          { "itemId": 6, "reason": "Perfect combo starter" },
+          { "itemId": 25, "reason": "Complete meal experience" }
         ]
       },
       {
-        "id": "fiveSet",
+        "id": 2,
+        "itemId": "fiveSet",
         "name": "5 Handroll",
         "icons": [],
         "price": 29,
         "image": "./img/handroll.png",
         "description": "Premium selection featuring fresh seafood variety",
         "type": "None",
+        "isRecommended": true,
+        "isBestSeller": false,
+        "isSpecial": true,
         "options": [
           { "name": "Negi Toro" },
           { "name": "Yellow Tail" },
           { "name": "Hokkaido Scallop" },
           { "name": "Snow Crab" },
           { "name": "Truffle Lobster" }
+        ],
+        "recommendedWith": [
+          { "itemId": 6, "reason": "Enhance the premium experience" },
+          { "itemId": 4, "reason": "Perfect variety combination" }
         ]
       },
       {
-        "id": "sixSet",
+        "id": 3,
+        "itemId": "sixSet",
         "name": "6 Handroll",
         "icons": [],
         "price": 35,
         "image": "./img/handroll.png",
         "description": "Ultimate experience with our signature handrolls",
         "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
         "options": [
           { "name": "Negi Toro" },
           { "name": "Yellow Tail" },
@@ -48,14 +69,20 @@
           { "name": "Hokkaido Scallop" },
           { "name": "Snow Crab" },
           { "name": "Truffle Lobster" }
+        ],
+        "recommendedWith": [
+          { "itemId": 22, "reason": "Ultimate luxury experience" },
+          { "itemId": 26, "reason": "Perfect finish to premium meal" }
         ]
       }
     ]
   },
   {
     "section": "Appetizers",
+    "sectionId": 2,
     "items": [
       {
+        "id": 6,
         "name": "Miso soup",
         "price": 5,
         "icons": [],
@@ -63,9 +90,17 @@
         "description": "Comforting traditional broth with tofu & seaweed",
         "topping": [],
         "type": "None",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": true,
+        "isBestSeller": true,
+        "isSpecial": true,
+        "recommendedWith": [
+          { "itemId": 1, "reason": "Traditional pairing with handrolls" },
+          { "itemId": 9, "reason": "Perfect warm starter" }
+        ]
       },
       {
+        "id": 7,
         "name": "Edamame (Salty)",
         "icons": [],
         "price": 4,
@@ -74,9 +109,17 @@
         "topping": [],
         "allergy": [],
         "type": "None",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 10, "reason": "Light appetizer before rich handrolls" },
+          { "itemId": 24, "reason": "Balance the richness of uni" }
+        ]
       },
       {
+        "id": 8,
         "name": "Edamame (Spicy)",
         "icons": [],
         "price": 5,
@@ -85,14 +128,23 @@
         "topping": [],
         "allergy": ["Gluten", "Egg", "Sesame Oil"],
         "type": "None",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 16, "reason": "Spicy lovers combo" },
+          { "itemId": 20, "reason": "Double spicy experience" }
+        ]
       }
     ]
   },
   {
     "section": "Aburi Oshi (Torched&pressed)",
+    "sectionId": 3,
     "items": [
       {
+        "id": 4,
         "name": "Ebi Oshi (Shrimp Oshi)",
         "icons": [],
         "price": 9,
@@ -101,9 +153,17 @@
         "topping": [],
         "allergy": ["Gluten", "Egg", "Shellfish"],
         "type": "None",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": true,
+        "isBestSeller": true,
+        "isSpecial": true,
+        "recommendedWith": [
+          { "itemId": 14, "reason": "Shellfish variety experience" },
+          { "itemId": 2, "reason": "Perfect addition to premium set" }
+        ]
       },
       {
+        "id": 5,
         "name": "Salmon Oshi",
         "icons": [],
         "price": 9,
@@ -112,14 +172,23 @@
         "topping": [],
         "allergy": ["Gluten", "Egg", "Raw Fish"],
         "type": "None",
-        "inStock": false
+        "inStock": false,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 9, "reason": "Double salmon experience" },
+          { "itemId": 6, "reason": "Miso flavors complement each other" }
+        ]
       }
     ]
   },
   {
     "section": "Handrolls",
+    "sectionId": 4,
     "items": [
       {
+        "id": 9,
         "name": "King Salmon",
         "price": 7.5,
         "icons": ["GF", "O"],
@@ -128,9 +197,18 @@
         "topping": ["Avocado"],
         "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": true,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 10, "reason": "Premium fish combination" },
+          { "itemId": 6, "reason": "Traditional pairing" },
+          { "itemId": 22, "reason": "Avocado lovers combo" }
+        ]
       },
       {
+        "id": 10,
         "name": "Yellow Tail",
         "price": 7.5,
         "icons": ["GF"],
@@ -139,9 +217,17 @@
         "topping": [],
         "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 9, "reason": "Premium fish duo" },
+          { "itemId": 17, "reason": "Seafood variety experience" }
+        ]
       },
       {
+        "id": 11,
         "name": "Bluefin Tuna",
         "price": 8,
         "icons": ["GF"],
@@ -150,9 +236,17 @@
         "topping": [],
         "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
         "type": "Handroll",
-        "inStock": false
+        "inStock": false,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 12, "reason": "Tuna lovers combo" },
+          { "itemId": 22, "reason": "Premium sashimi pairing" }
+        ]
       },
       {
+        "id": 12,
         "name": "Negi Toro",
         "icons": [],
         "price": 6,
@@ -161,9 +255,17 @@
         "topping": [],
         "allergy": ["Raw Fish", "Green Onion"],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 11, "reason": "Tuna variety experience" },
+          { "itemId": 20, "reason": "Spicy tuna contrast" }
+        ]
       },
       {
+        "id": 13,
         "name": "Unagi",
         "price": 7,
         "icons": [],
@@ -172,9 +274,17 @@
         "topping": ["Cucumber"],
         "allergy": ["Gluten"],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 24, "reason": "Cucumber freshness pairing" },
+          { "itemId": 21, "reason": "Sweet flavor harmony" }
+        ]
       },
       {
+        "id": 14,
         "name": "Snow Crab",
         "price": 8,
         "icons": ["GF"],
@@ -183,9 +293,17 @@
         "topping": [],
         "allergy": ["Egg", "Shellfish"],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 15, "reason": "Luxury shellfish combo" },
+          { "itemId": 4, "reason": "Shellfish variety experience" }
+        ]
       },
       {
+        "id": 15,
         "name": "Truffle Lobster",
         "price": 9.5,
         "icons": ["GF"],
@@ -194,9 +312,17 @@
         "topping": [],
         "allergy": ["Egg", "Shellfish"],
         "type": "Handroll",
-        "inStock": false
+        "inStock": false,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": true,
+        "recommendedWith": [
+          { "itemId": 14, "reason": "Ultimate shellfish experience" },
+          { "itemId": 22, "reason": "Luxury dining combination" }
+        ]
       },
       {
+        "id": 16,
         "name": "Spicy Shrimp",
         "price": 6,
         "icons": ["O"],
@@ -205,9 +331,17 @@
         "topping": [],
         "allergy": ["Gluten", "Egg", "Shellfish", "Sesame Oil"],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 8, "reason": "Spicy lovers delight" },
+          { "itemId": 20, "reason": "Double spicy experience" }
+        ]
       },
       {
+        "id": 17,
         "name": "Hokkaido Scallop",
         "price": 7,
         "icons": ["GF"],
@@ -216,9 +350,17 @@
         "topping": [],
         "allergy": ["Egg", "Shellfish", "Fish Roe", "Raw Fish"],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 10, "reason": "Premium seafood pairing" },
+          { "itemId": 25, "reason": "Fish roe harmony" }
+        ]
       },
       {
+        "id": 18,
         "name": "Octopus",
         "price": 8.5,
         "icons": [],
@@ -227,9 +369,17 @@
         "topping": [],
         "allergy": ["Gluten", "Shellfish", "Sesame Oil"],
         "type": "Handroll",
-        "inStock": false
+        "inStock": false,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 19, "reason": "Delicate seafood variety" },
+          { "itemId": 7, "reason": "Light appetizer balance" }
+        ]
       },
       {
+        "id": 19,
         "name": "Seabream",
         "price": 8,
         "icons": ["GF"],
@@ -238,9 +388,17 @@
         "topping": [],
         "allergy": ["Sesame Seeds", "Sesame Oil", "Raw Fish"],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 9, "reason": "Fish variety experience" },
+          { "itemId": 22, "reason": "Premium sashimi complement" }
+        ]
       },
       {
+        "id": 20,
         "name": "Spicy Bluefin Tuna",
         "price": 8.5,
         "icons": [],
@@ -249,9 +407,17 @@
         "topping": [],
         "allergy": ["Gluten", "Egg", "Sesame Oil", "Raw Fish"],
         "type": "Handroll",
-        "inStock": false
+        "inStock": false,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 12, "reason": "Tuna variety contrast" },
+          { "itemId": 8, "reason": "Spicy flavor harmony" }
+        ]
       },
       {
+        "id": 21,
         "name": "Tamago (Egg)",
         "price": 5,
         "icons": [],
@@ -260,9 +426,17 @@
         "topping": [],
         "allergy": ["Gluten", "Egg", "Dairy"],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 22, "reason": "Vegetarian-friendly combo" },
+          { "itemId": 13, "reason": "Sweet flavor pairing" }
+        ]
       },
       {
+        "id": 22,
         "name": "Avocado",
         "price": 4,
         "icons": ["GF", "V"],
@@ -271,9 +445,17 @@
         "topping": [],
         "allergy": [],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 9, "reason": "Salmon avocado classic" },
+          { "itemId": 23, "reason": "Vegetarian variety combo" }
+        ]
       },
       {
+        "id": 23,
         "name": "Pickled Vegetable",
         "price": 4,
         "icons": ["GF", "V"],
@@ -282,9 +464,17 @@
         "topping": [],
         "allergy": [],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 24, "reason": "Fresh vegetable medley" },
+          { "itemId": 22, "reason": "Plant-based variety" }
+        ]
       },
       {
+        "id": 24,
         "name": "Cucumber",
         "price": 4,
         "icons": ["GF", "V"],
@@ -293,14 +483,23 @@
         "topping": [],
         "allergy": [],
         "type": "Handroll",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 13, "reason": "Cucumber freshness harmony" },
+          { "itemId": 23, "reason": "Refreshing vegetable duo" }
+        ]
       }
     ]
   },
   {
     "section": "Special Menus",
+    "sectionId": 5,
     "items": [
       {
+        "id": 22,
         "name": "Sashimi Platter",
         "price": 48,
         "icons": [],
@@ -318,9 +517,16 @@
         "type": "None",
         "allergy": [],
         "inStock": true,
-        "isSpecial": false
+        "isSpecial": true,
+        "isRecommended": true,
+        "isBestSeller": true,
+        "recommendedWith": [
+          { "itemId": 6, "reason": "Traditional sashimi pairing" },
+          { "itemId": 26, "reason": "Premium dining experience" }
+        ]
       },
       {
+        "id": 23,
         "name": "Wagyu Handroll",
         "price": 27,
         "icons": [],
@@ -330,9 +536,16 @@
         "type": "None",
         "allergy": [],
         "inStock": false,
-        "isSpecial": false
+        "isSpecial": false,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "recommendedWith": [
+          { "itemId": 24, "reason": "Ultimate luxury combination" },
+          { "itemId": 26, "reason": "Premium finish" }
+        ]
       },
       {
+        "id": 24,
         "name": "Uni Handroll",
         "price": 27,
         "icons": ["GF"],
@@ -342,9 +555,16 @@
         "type": "None",
         "allergy": [],
         "inStock": true,
-        "isSpecial": true
+        "isSpecial": false,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "recommendedWith": [
+          { "itemId": 7, "reason": "Balance the richness" },
+          { "itemId": 25, "reason": "Premium seafood experience" }
+        ]
       },
       {
+        "id": 25,
         "name": "Ikura Handroll",
         "price": 7.5,
         "icons": ["GF"],
@@ -354,14 +574,22 @@
         "type": "None",
         "allergy": [],
         "inStock": true,
-        "isSpecial": false
+        "isSpecial": false,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "recommendedWith": [
+          { "itemId": 17, "reason": "Roe and scallop harmony" },
+          { "itemId": 9, "reason": "Salmon family pairing" }
+        ]
       }
     ]
   },
   {
     "section": "Desserts",
+    "sectionId": 6,
     "items": [
       {
+        "id": 25,
         "name": "Mochi Ice Cream (3pcs)",
         "price": 6,
         "icons": [],
@@ -376,9 +604,17 @@
           { "name": "Strawberry" }
         ],
         "type": "None",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": false,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 1, "reason": "Perfect meal conclusion" },
+          { "itemId": 21, "reason": "Sweet finish harmony" }
+        ]
       },
       {
+        "id": 26,
         "name": "Mille Crepe Cake",
         "icons": [],
         "price": 8,
@@ -386,7 +622,14 @@
         "description": "Vanilla layers with matcha powder finish",
         "topping": [],
         "type": "None",
-        "inStock": true
+        "inStock": true,
+        "isRecommended": true,
+        "isBestSeller": false,
+        "isSpecial": true,
+        "recommendedWith": [
+          { "itemId": 22, "reason": "Premium dining finale" },
+          { "itemId": 3, "reason": "Elegant meal conclusion" }
+        ]
       }
     ]
   }

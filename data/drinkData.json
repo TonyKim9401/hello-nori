@@ -1,334 +1,613 @@
 [
   {
     "section": "Japanese Sake",
+    "sectionId": 7,
     "items": [
       {
+        "id": 27,
         "name": "Hello Sake (Junmai ginjo)",
         "icons": [],
         "price": "$14 / gls-$30 / 270ml",
         "image": "./img/sake.jpeg",
         "description": "Our own house label brewed and bottled in Japan by Dewazakura Browery. Fragrant and dry, specifically curated to complement our hand rolls",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": true,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 9, "reason": "Perfect pairing with premium King Salmon" },
+          { "itemId": 2, "reason": "Enhances the 5 handroll set experience" },
+          { "itemId": 22, "reason": "Classic match with sashimi platter" }
+        ]
       },
       {
+        "id": 28,
         "name": "Nakano \"Saika\" (daiginjo)",
         "icons": [],
         "price": "$19 / gls-$38 / 270ml",
         "image": "./img/sake.jpeg",
         "description": "Superb complexity, opulent body",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 15, "reason": "Luxury pairing with truffle lobster" },
+          { "itemId": 24, "reason": "Premium complement to uni handroll" },
+          { "itemId": 3, "reason": "Perfect with ultimate 6 handroll set" }
+        ]
       },
       {
+        "id": 29,
         "name": "Yoshi No Gawa(honjozo)",
         "icons": [],
         "price": "$16 / gls-$72 / 270ml",
         "image": "./img/sake.jpeg",
         "description": "Deceptively complex sets a high standard in the honjozo category",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 10, "reason": "Great with buttery yellowtail" },
+          { "itemId": 17, "reason": "Complements Hokkaido scallop sweetness" }
+        ]
       },
       {
+        "id": 30,
         "name": "Rose Umeshu-(sweet wine)",
         "icons": [],
         "price": "$8 / 2oz-$50 / 300ml",
         "image": "./img/sake.jpeg",
         "description": "Beautiful aromas of rose and Japanese plum with delightful sweetness and refreshing acidity",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 25, "reason": "Sweet pairing with mochi ice cream" },
+          { "itemId": 26, "reason": "Perfect with mille crepe cake" }
+        ]
       }
     ]
   },
   {
     "section": "Alain Ducasse Sparkling Sake",
+    "sectionId": 8,
     "items": [
       {
+        "id": 31,
         "name": "Maison Shichiken",
         "icons": [],
         "price": "$170 / 720ml",
         "image": "./img/sake.jpeg",
         "description": "French technique and Japanese discipline shine in this remarkable champagne method sake",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": true,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 22, "reason": "Ultimate luxury with sashimi platter" },
+          { "itemId": 3, "reason": "Premium celebration with 6 handroll set" }
+        ]
       }
     ]
   },
   {
     "section": "Daiginjo",
+    "sectionId": 9,
     "items": [
       {
+        "id": 32,
         "name": "Kuheiji \"Sauvage\"'23",
         "icons": [],
         "price": "$105 / 720ml",
         "image": "./img/sake.jpeg",
         "description": "The rich history of sake blends with French chateau traditions producing a lightly effervescent, uniquely complex indulgence",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": true,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          {
+            "itemId": 15,
+            "reason": "French-inspired luxury with truffle lobster"
+          },
+          { "itemId": 24, "reason": "Complex pairing with uni handroll" }
+        ]
       },
       {
+        "id": 33,
         "name": "Dassai \"45\"",
         "icons": [],
         "price": "$88 / 300ml",
         "image": "./img/sake.jpeg",
-        "description": "",
+        "description": "Premium junmai daiginjo with elegant refinement",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 9, "reason": "Premium sake with King Salmon" },
+          { "itemId": 10, "reason": "Elegant pairing with yellowtail" }
+        ]
       },
       {
+        "id": 34,
         "name": "Dassai \"45\" Nigori",
         "icons": [],
         "price": "$90 / 300ml",
         "image": "./img/sake.jpeg",
-        "description": "",
+        "description": "Cloudy, creamy textured premium sake",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 14, "reason": "Creamy texture complements snow crab" },
+          { "itemId": 17, "reason": "Rich pairing with Hokkaido scallop" }
+        ]
       },
       {
+        "id": 35,
         "name": "Dassai \"23\"",
         "icons": [],
         "price": "$160 / 300ml",
         "image": "./img/sake.jpeg",
-        "description": "",
+        "description": "Ultra-premium junmai daiginjo, the pinnacle of sake craftsmanship",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": true,
+        "recommendedWith": [
+          { "itemId": 22, "reason": "Ultimate premium with sashimi platter" },
+          { "itemId": 24, "reason": "Pinnacle pairing with uni handroll" }
+        ]
       }
     ]
   },
   {
     "section": "Ontario Local Sake",
+    "sectionId": 10,
     "items": [
       {
+        "id": 36,
         "name": "Izumi \"Gold\"(ginjo)",
         "icons": [],
         "price": "$60 / 375ml",
         "image": "./img/sake.jpeg",
-        "description": "",
+        "description": "Premium local Ontario sake with gold standard quality",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": true,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 2, "reason": "Local pride with premium handroll set" },
+          { "itemId": 9, "reason": "Ontario meets premium King Salmon" }
+        ]
       },
       {
+        "id": 37,
         "name": "Izumi \"Namacho\"",
         "icons": [],
         "price": "$42 / 375ml",
         "image": "./img/sake.jpeg",
-        "description": "",
+        "description": "Fresh, unpasteurized local sake with vibrant character",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          {
+            "itemId": 1,
+            "reason": "Fresh local pairing with handroll starter"
+          },
+          { "itemId": 10, "reason": "Vibrant match with yellowtail" }
+        ]
       }
     ]
   },
   {
     "section": "Cocktails (2oz liquor)",
+    "sectionId": 11,
     "items": [
       {
+        "id": 38,
         "name": "Konnichiwagarita",
         "icons": [],
         "price": "$14",
         "image": "./img/sakuraBlossom.jpeg",
         "description": "Hello Sake, midori, Japanese liqueur yuzukosho, yuzu juice",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": true,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 16, "reason": "Spicy kick matches spicy shrimp" },
+          { "itemId": 8, "reason": "Complements spicy edamame perfectly" }
+        ]
       },
       {
+        "id": 39,
         "name": "Kaiju En Neguroni",
         "icons": [],
         "price": "$14",
         "image": "./img/sakuraBlossom.jpeg",
         "description": "Roku Gin, strawberry averna, plum umeshu, plum bitters, dehydrated dragon fruit",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 4, "reason": "Sophisticated pairing with ebi oshi" },
+          { "itemId": 19, "reason": "Elegant match with delicate seabream" }
+        ]
       },
       {
+        "id": 40,
         "name": "Rokabiru baby",
         "icons": [],
         "price": "$14",
         "image": "./img/sakuraBlossom.jpeg",
         "description": "Suntory Toki, galliano, sakura soda, vanilla foam",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 21, "reason": "Vanilla harmony with sweet tamago" },
+          { "itemId": 13, "reason": "Sweet complement to unagi" }
+        ]
       },
       {
+        "id": 41,
         "name": "Sakura blossom",
         "icons": [],
         "price": "$14",
         "image": "./img/sakuraBlossom.jpeg",
         "description": "Peach juice based Japanese sweetness with sangria",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          {
+            "itemId": 22,
+            "reason": "Light and refreshing with vegetarian options"
+          },
+          { "itemId": 23, "reason": "Fruity pairing with pickled vegetables" }
+        ]
       },
       {
+        "id": 42,
         "name": "Lychee berry chuhi",
         "icons": [],
         "price": "$14",
         "image": "./img/lycheeBerryChuhi.jpeg",
         "description": "Lychee juice & straw berry sweet and sour",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 14, "reason": "Sweet and savory balance with snow crab" },
+          { "itemId": 1, "reason": "Refreshing with starter handroll set" }
+        ]
       }
     ]
   },
   {
     "section": "Japanese Spirits",
+    "sectionId": 12,
     "items": [
       {
+        "id": 43,
         "name": "Roku Gin",
         "icons": [],
         "price": "$8 / Single-$12 / Double",
         "image": "./img/japaneseWhisky.jpeg",
         "description": "An aromatic expression of six(roku) Japanese botanicals",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 11, "reason": "Premium gin with premium bluefin tuna" },
+          { "itemId": 18, "reason": "Botanical complexity with octopus" }
+        ]
       },
       {
+        "id": 44,
         "name": "Toki Japanese Whisky",
         "icons": [],
         "price": "$13.0 / Single-$19.5 / Double",
         "image": "./img/japaneseWhisky.jpeg",
         "description": "Setting a standard in Japanese whisky. Lively nose with a smooth, vanilla finish",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": true,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 12, "reason": "Rich whisky with fatty negi toro" },
+          { "itemId": 5, "reason": "Smooth finish with salmon oshi" }
+        ]
       },
       {
+        "id": 45,
         "name": "Hibiki Harmony Whisky",
         "icons": [],
         "price": "$30 / Single-$45 / Double",
         "image": "./img/japaneseWhisky.jpeg",
         "description": "Premium, balanced blend of Japanese whiskies, hints of honey and orange zest",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 22, "reason": "Ultimate luxury with sashimi platter" },
+          { "itemId": 15, "reason": "Premium pairing with truffle lobster" }
+        ]
       }
     ]
   },
   {
     "section": "Beers",
+    "sectionId": 13,
     "items": [
       {
+        "id": 46,
         "name": "Hello Lager (tap beer)",
         "icons": [],
         "price": "$8 / 470ml",
         "image": "./img/helloLager.jpeg",
         "description": "Locally brewed, unfiltered rice lager produced by Rorshach Brewing Co",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": true,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          {
+            "itemId": 1,
+            "reason": "Perfect casual pairing with 4 handroll set"
+          },
+          { "itemId": 7, "reason": "Great with salty edamame" }
+        ]
       },
       {
+        "id": 47,
         "name": "Asahi (bottle)",
         "icons": [],
         "price": "$8 / 330ml",
         "image": "./img/helloLager.jpeg",
-        "description": "",
+        "description": "Classic Japanese lager with crisp, clean finish",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 16, "reason": "Classic Japanese beer with spicy shrimp" },
+          { "itemId": 6, "reason": "Traditional pairing with miso soup" }
+        ]
       },
       {
+        "id": 48,
         "name": "Sapporo (bottle)",
         "icons": [],
         "price": "$8 / 355ml",
         "image": "./img/helloLager.jpeg",
-        "description": "",
+        "description": "Premium Japanese beer with smooth, balanced taste",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 4, "reason": "Crisp beer with flame-seared ebi oshi" },
+          { "itemId": 10, "reason": "Light pairing with yellowtail" }
+        ]
       }
     ]
   },
   {
     "section": "Non - Alcoholics",
+    "sectionId": 14,
     "items": [
       {
+        "id": 49,
         "name": "Sparkling Water (Perier)",
         "icons": [],
         "price": "$4",
         "image": "./img/sake.jpeg",
         "description": "Refreshing carbonated water to cleanse your palate.",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 22, "reason": "Perfect palate cleanser with sashimi" },
+          { "itemId": 24, "reason": "Cleanses richness of uni" }
+        ]
       },
       {
+        "id": 50,
         "name": "Coca Cola (Reg, Diet)",
         "icons": [],
         "price": "$5",
         "image": "./img/sake.jpeg",
         "description": "Classic Coca-Cola served chilled in a glass bottle.",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 1, "reason": "Classic casual pairing" },
+          { "itemId": 25, "reason": "Sweet combination with mochi ice cream" }
+        ]
       },
       {
+        "id": 51,
         "name": "White Peach Juice",
         "icons": [],
         "price": "$5",
         "image": "./img/sake.jpeg",
         "description": "Delicate and aromatic white peach soda imported from Japan.",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 21, "reason": "Sweet harmony with tamago" },
+          { "itemId": 26, "reason": "Fruity complement to crepe cake" }
+        ]
       },
       {
+        "id": 52,
         "name": "Asahi 0.0% Beer",
         "icons": [],
         "price": "$6",
         "image": "./img/matcha.png",
-        "description": "House brewed Japanese traditional matcha with unlimitied refiled",
+        "description": "Non-alcoholic beer option with authentic Japanese taste",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 16, "reason": "Non-alcoholic option with spicy shrimp" },
+          { "itemId": 4, "reason": "Guilt-free pairing with ebi oshi" }
+        ]
       },
       {
+        "id": 53,
         "name": "Green Tea",
         "icons": [],
         "price": "$5",
         "image": "./img/matcha.png",
-        "description": "House brewed Japanese traditional matcha with unlimitied refiled",
+        "description": "House brewed Japanese traditional green tea with unlimited refills",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": true,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 22, "reason": "Traditional pairing with sashimi" },
+          { "itemId": 6, "reason": "Classic combo with miso soup" }
+        ]
       },
       {
+        "id": 54,
         "name": "Genmai Tea (Brown rice tea)",
         "icons": [],
         "price": "$5",
         "image": "./img/matcha.png",
-        "description": "House brewed Japanese traditional matcha with unlimitied refiled",
+        "description": "Nutty brown rice tea with unlimited refills",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 13, "reason": "Earthy pairing with sweet unagi" },
+          { "itemId": 23, "reason": "Complement to pickled vegetables" }
+        ]
       }
     ]
   },
   {
     "section": "Zero Proof Cocktails",
+    "sectionId": 15,
     "items": [
       {
+        "id": 55,
         "name": "Lowtel",
         "icons": [],
         "price": "$8",
         "image": "./img/sake.jpeg",
-        "description": "",
+        "description": "Sophisticated non-alcoholic cocktail experience",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 9, "reason": "Elegant pairing with King Salmon" },
+          { "itemId": 2, "reason": "Sophisticated with 5 handroll set" }
+        ]
       },
       {
+        "id": 56,
         "name": "Lychee Zen",
         "icons": [],
         "price": "$8",
         "image": "./img/sake.jpeg",
-        "description": "",
+        "description": "Refreshing lychee-based mocktail with zen-like balance",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": true,
+        "isBestSeller": true,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 17, "reason": "Lychee harmony with Hokkaido scallop" },
+          { "itemId": 14, "reason": "Sweet balance with snow crab" }
+        ]
       },
       {
+        "id": 57,
         "name": "Peach Pafekuto",
         "icons": [],
         "price": "$8",
         "image": "./img/sake.jpeg",
-        "description": "",
+        "description": "Perfect peach mocktail with Japanese-inspired flavors",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 22, "reason": "Fruity complement to vegetarian options" },
+          { "itemId": 25, "reason": "Peach harmony with mochi flavors" }
+        ]
       },
       {
+        "id": 58,
         "name": "Lychee Berry \"Chuhi\"",
         "icons": [],
         "price": "$8",
         "image": "./img/sake.jpeg",
-        "description": "",
+        "description": "Non-alcoholic version of popular Japanese chuhi",
         "options": [],
-        "type": "None"
+        "type": "None",
+        "isRecommended": false,
+        "isBestSeller": false,
+        "isSpecial": false,
+        "recommendedWith": [
+          { "itemId": 1, "reason": "Refreshing with starter handroll set" },
+          { "itemId": 24, "reason": "Sweet and refreshing with cucumber" }
+        ]
       }
     ]
   }
