@@ -640,6 +640,25 @@
         ]
       },
       {
+        "id": 89,
+        "name": "4 Kinds of Japanese Pickles",
+        "price": 9.0,
+        "icons": ["GF"],
+        "image": "./img/japanesePickles.png",
+        "description": "Well picked Egg plant, Japanese Jinger shoots, Wasabina, Daikon with Japanese premium salt",
+        "topping": [],
+        "type": "None",
+        "allergy": [],
+        "inStock": true,
+        "isSpecial": false,
+        "isRecommended": false,
+        "isBestSeller": false,
+        "recommendedWith": [
+          { "itemId": 7, "reason": "Balance the richness" },
+          { "itemId": 25, "reason": "Premium seafood experience" }
+        ]
+      },
+      {
         "id": 25,
         "name": "Ikura Handroll",
         "price": 11,
